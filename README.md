@@ -12,7 +12,9 @@ We present the first structured benchmark for test-time adaptation of medical VL
 
 ## Usage
 ### Step 1: Clone the repository
-
+```bash
+git clone https://github.com/FereshteShakeri/TTAMedVLMs.git
+```
 
 ### Step 2: Setup the Environment
 Create an environment and Install the requirements The `environment.yaml` file can be used to install the required dependencies:
@@ -55,8 +57,4 @@ python main.py --data_dir $DATA_DIR --dataset $DATASET --adapt --method $METHOD 
 
 This source code is released under the MIT license, which can be found [here](./LICENSE).
 
-This project incorporates components from the following repositories. We extend our gratitude to the authors for open-sourcing their work:
-- [WATT](https://github.com/Mehrdad-Noori/WATT)
-- [Tent](https://github.com/DequanWang/tent) (MIT licensed)
-- [CLIP](https://github.com/openai/CLIP/tree/main/clip) (MIT licensed)
-- [CLIPArTT](https://github.com/dosowiechi/CLIPArTT)
+This repository is built on top of [WATT](https://github.com/Mehrdad-Noori/WATT) (Special thanks to the authors.)
